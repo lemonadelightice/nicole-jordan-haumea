@@ -1,0 +1,27 @@
+#name {
+background-color: rgb(92, 97, 105);
+color:whitesmoke;
+width: 1250px;
+margin: 0;
+border: 15px solid rgb(92,97,105); 
+text-align: left
+}
+
+body {
+    background-color: rgb(221, 238, 238);
+    color:blue;
+    width: 1250px;
+    margin: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#experience ol li {
+    list-style: none;
+    display:inline-block;
+    text-align: left;
+    font-size: medium;
+    background-color: blue;
+    color: whitesmoke;
+  
+    
+}
