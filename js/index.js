@@ -12,14 +12,14 @@ document.body.appendChild(footer);
 
 //const footer = document.querySelector('footer');
 
-let specSkills = ["AWS Cloud", "JavaScript", "CSS", "HTML", "CSS", "JSON"];
-let skillsSect = document.getElementById("skills")
+let skills = ["AWS Cloud", "JavaScript", "CSS", "HTML", "CSS", "JSON"];
+let skillsSect = document.getElementById("skills");
 let skillsList = document.createElement("ul");
 skillsSect.appendChild(skillsList);
 
-for (let specSkill of specSkills) {
+for (let skill of skills) {
     let skillItem = document.createElement("li");
-    skillItem.innerText = specSkill;
+    skillItem.innerText = skill;
     skillsList.appendChild(skillItem);
 }
 
