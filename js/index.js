@@ -23,15 +23,6 @@ for (let skill of skills) {
     skillsList.appendChild(skillItem);
 }
 
-//var section = document.createElement('section');
-
-//var heading = document.createElement('h2');
-//heading.textContent = "Leave a Message";
-
-//section.appendChild(heading);
-
-//footer.parentNode.prepend(section);
-
 let messageForm = document.querySelector("[name='leave_message']");
 let messageSection = document.getElementById('message-section');
 let messageList = messageSection.querySelector('ul');
