@@ -82,9 +82,9 @@ function makeRemoveButton() {
 };
 
 //create a fetch for github repos
+const userName = "lemonadelightice";
 
-
-fetch("https://api.github.com/users/lemonadelightice/repos")
+fetch(`https://api.github.com/users/${userName}/repos`)
  .then((response) => {
     if (response.ok) {
       return response.text();
