@@ -1,30 +1,28 @@
 <!DOCTYPE html>
-</html>
-    <head>
-        <title>Nicole's Webpage</title>
-        <meta name="description" content="Tech Career Journey">
-        <meta name="keywords" content="coding, programming, technology, career">
-        <link  href="https://fonts.googleapis.com/css?family=Imbue" rel="stylesheet">
-        <link href="css/index.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Imbue">
-    </head>
-   </head>
+<html lang="en">
+<head>
+    <title>Nicole's Webpage</title>
+    <meta name="description" content="Tech Career Journey">
+    <meta name="keywords" content="coding, programming, technology, career">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+</head>
 
-    <body>
-        <nav id="navigation">
-            <div id="experience">Experience</div>
-            <div id="nav-skills">Skills</div>
-            <div id="projects">Projects</div>
-            <div id="certifications">Certifications</div>
-            <div id="connect">Connect</div>
-        </nav>
-    </body>
+<body>
+    <nav id="navigation">
+        <div><a href="#exp-section">Experience</a></div>
+        <div><a href="#skills">Skills</a></div>
+        <div><a href="#projects">Projects</a></div>
+        <div><a href="#connect-footer">Connect</a></div>
+     </nav>
 
-    <body>
-        <header>
-            <h1 id="name">NICOLE JORDAN</h1>
-        </header>
-        <img id="image"
+    <header>
+        <h1 id="name">NICOLE JORDAN</h1>
+    </header>
+
+    <img id="image"
         id="pic" src="img/headshot.jpg"alt="Nicole's Headshot"
         height= "120"
         height= "125"
@@ -47,24 +45,29 @@
             <h4><a href="www.playerstrust.com" class="nflpa">The Trust (Powered by the NFLPA)</a></h4>
             <h4 style="color:rgb(52,53,56)" class="date4">May 2015- March 2022</h4>
 
-        </div>
+        </div>        
+               
+        <h2>Skills</h2>   
+        <div id="skills-container"></div>        
 
-        
-        <h2 id="skills">Skills</h2>
-        <h2 id="certs">Certifications</h2>
+        <h2 id="project-header" style="text-align:center" color="rgb(52, 53, 56)">Projects</h2>
 
-        <section>
-            <h2>Leave a Message</h2>
+        <section id="projects">
+            
         </section>
 
-            <form name="leave_message" class="message-form">
-            <label for="usersName">Name:</label>
+        <section>
+            <h2 id="message-heading" style color="rgb(52 ,53, 56)">Leave a Message</h2>
+        </section>
+
+            <form name="leave-message" class="message-form">
+            <label style="color:rgb(127, 186, 226) "usersName">Name:</label>
             <input type="text" id="usersName" name="usersName" required><br>
 
-            <label for="usersEmail">Email:</label>
+            <label style="color:rgb(127, 186, 226)"usersEmail">Email:</label>
             <input type="email" id="usersEmail" name="usersEmail" required><br>
 
-            <label for="usersMessage">Message:</label>
+            <label style="color:rgb(127, 186, 226)"usersMessage">Message:</label>
             <textarea id="usersMessage" name="usersMessage" required></textarea><br>
 
             <button type="submit" value="submit" name="submit" class ="submit-button">Submit</button>
@@ -75,7 +78,6 @@
             <ul id="message"></ul>
         </section>           
 
-
         <h3 id="connect-footer"><strong>Connect</strong></h3>
              <div id="container-connect">
                 <script src="https://kit.fontawesome.com/b68a4c7dda.js" crossorigin="anonymous"></script>
@@ -83,8 +85,8 @@
                 <a href=mailto:nicolejordan.ncj@gmail.com><i class="fa-solid fa-envelope fa-2xl"></i></a>
                 <a href="https://github.com/lemonadelightice?tab=repositories"><i class="fa-brands fa-square-github fa-2xl"></i></a>
             </div>
-
-            <script src="js/index.js"></script>
-
-    </body>
+     
+            <script src="js/index.js" ></script> 
+</body>
 </html>
+
